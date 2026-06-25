@@ -1,0 +1,28 @@
+{
+  "name": "lettucemeet-skill",
+  "version": "0.1.0",
+  "description": "Agent skill for creating LettuceMeet scheduling polls and pre-filling availability from Google Calendar.",
+  "private": false,
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "agent-skill",
+    "lettucemeet",
+    "scheduling",
+    "calendar"
+  ],
+  "license": "MIT",
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "files": [
+    "skills/",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "check": "python3 -m py_compile skills/lettucemeet/scripts/lettucemeet_agent.py && python3 skills/lettucemeet/scripts/lettucemeet_agent.py --help >/dev/null"
+  }
+}
