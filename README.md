@@ -17,7 +17,7 @@ No API key or account required — LettuceMeet allows anonymous poll creation an
 Once installed, ask your agent in plain language:
 
 ```
-Make a LettuceMeet poll called "NAIPO sync" for the next 2 weeks, 9:30-17:00, and pre-fill my availability from my calendar
+Make a LettuceMeet poll called "Project sync meeting" for the next 2 weeks, 9:30-17:00, and pre-fill my availability from my calendar
 ```
 
 ```
